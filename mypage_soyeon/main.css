@@ -1,0 +1,101 @@
+*{
+    background-color: pink;
+    font-style: italic;
+    color: white;
+    margin: auto;
+}
+
+.main-nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.main-nav li{
+    padding: 50px 50px;
+}
+
+.main-nav a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 3px 4px 5px black;
+}
+
+.main-nav img{
+    width: 50px;
+    height: 50px;
+}
+
+.main-nav a:hover{
+    color: white;
+    font-size: 30px;
+}
+
+#profileBox{
+    width: 500px;
+    height: 500%;
+    border-radius: 70%;
+    border: 5px solid white;
+    overflow: hidden;
+/* 깎고 넘치는 부분을 hidden으로 안보이게 하기 */
+}
+
+#profileImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mainIntroduce{
+    text-align: center;
+    font-size: 20px;
+}
+
+.like.mainIntroduce{
+    text-decoration: underline;
+}
+
+.img-layout{
+   margin: auto;
+   border-spacing: 20px;
+}
+
+.img-layout td{
+    border: 5px dashed palevioletred;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.img-layout img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.memory-layout.img-layout img:active{
+    width: auto;
+    height: auto;
+}
+
+.like-layout.img-layout img{
+    display: block;
+}
+
+.like-layout.img-layout img:active{
+    visibility: hidden;
+}
+
+.visible{
+    position: absolute;
+    margin: auto;
+    text-align: middle;
+    visibility: hidden;
+}
+
+.like-layout.img-layout:active .visible{
+    visibility: visible;
+}
