@@ -1,0 +1,35 @@
+table{
+    border: 5px solid black;
+}
+
+table td{
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+}
+input{
+    text-align: right;
+    border: none;
+    font-size: 100px;
+    width: 100%;
+    background-color: gray;
+}
+
+button{
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.operator{
+    background-color: rgb(86, 119, 209);
+    color: white;
+    border: none;
+}
+
+.number{
+    background-color: rgb(41, 41, 43);
+    color: white;
+    border: none;
+}

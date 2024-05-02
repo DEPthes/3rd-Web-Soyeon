@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+        <table class="calculate">
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="input">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="add('%')" class="operator">%</button>
+                </td>
+                <td>
+                    <button onclick="allclear()" class="operator">C</button>
+                </td>
+                <td>
+                    <button onclick="back()" class="operator">x</button>
+                </td>
+                <td>
+                    <button onclick="add('/')" class="operator">/</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="add('1')" class="number">1</button>
+                </td>
+                <td>
+                    <button onclick="add('2')" class="number">2</button>
+                </td>
+                <td>
+                    <button onclick="add('3')" class="number">3</button>
+                </td>
+                <td>
+                    <button onclick="add('*')" class="operator">*</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="add('4')" class="number">4</button>
+                </td>
+                <td>
+                    <button onclick="add('5')" class="number">5</button>
+                </td>
+                <td>
+                    <button onclick="add('6')" class="number">6</button>
+                </td>
+                <td>
+                    <button onclick="add('-')" class="operator">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="add('7')" class="number">7</button>
+                </td>
+                <td>
+                    <button onclick="add('8')" class="number">8</button>
+                </td>
+                <td>
+                    <button onclick="add('9')" class="number">9</button>
+                </td>
+                <td>
+                    <button onclick="add('+')" class="operator">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="operator">+/-</button>
+                </td>
+                <td>
+                    <button onclick="add('0')" class="number">0</button>
+                </td>
+                <td>
+                    <button onclick="add('.')" class="number">.</button>
+                </td>
+                <td>
+                    <button onclick="calculate()" class="operator">=</button>
+                </td>
+            </tr>
+        </table>
+</body>
+</html>
